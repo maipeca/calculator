@@ -57,3 +57,10 @@ button{
     font-size: 1.6rem;
     
 }
+
+@media (max-width: 400px) {
+   .calculator {
+    grid-template-columns: repeat(4,50px);
+    }
+   
+  }
